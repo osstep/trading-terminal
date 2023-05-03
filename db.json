@@ -1,0 +1,12 @@
+{
+  "currencies": [
+    { "id": 1, "currency": "CHN/RUB", "sell": 5.511, "buy": 5.611 },
+    { "id": 2, "currency": "EUR/RUB", "sell": 53.111, "buy": 54.311 },
+    { "id": 3, "currency": "EUR/USD", "sell": 75.511, "buy": 77.611 },
+    { "id": 3, "currency": "TRY/RUB", "sell": 31.511, "buy": 32.611 },
+    { "id": 3, "currency": "BYN/RUB", "sell": 45.511, "buy": 46.611 }
+  ],
+  "orderList": [
+    { "id": 1, "creationTime": "date", "ChangeTime": "time", "status": "1", "side": "buy", "price": 5.511, "amount": 500, "instrument": "CHN/RUB" }
+  ]
+}
