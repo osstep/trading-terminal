@@ -1,6 +1,11 @@
 <script setup>
+import { ref, provide } from 'vue';
 import tradePanel from './components/tradePanel.vue';
 import orderTable from './components/orderTable.vue';
+
+const provideCounter = ref(0)
+provide('provideCounter', provideCounter)
+
 </script>
 
 <template>
